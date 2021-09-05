@@ -1,1 +1,169 @@
 /* font-family: 'Shippori Mincho', serif; */
+
+.drawer-nav{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    color: #fff;
+    background: #000000;
+    font-family: 'Shippori Mincho', serif;
+    width: 1200px;
+    margin: auto;
+}
+
+
+.firstview-img{
+    height: 600px;
+    position: relative;
+}
+
+.firstview-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header-ttl{
+    font-size: 24px;
+    width: 80px;
+}
+
+.header-nav-list{
+    padding-left: 100px;
+    display: flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.chatchcopy{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.chatchcopy-text{
+    text-align: center;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+span{
+    font-size: 60px;
+}
+
+/* Topics */
+.topics{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-contents{
+    position: absolute;
+    top: 145px;
+    left: 20px;
+}
+
+.card-ttl{
+    font-size: 26px;
+}
+
+.card-text{
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+
+/* Style */
+.style{
+    padding: 70px 0;
+    background: linear-gradient(180deg, #030303,#FBFBFB);
+}
+
+h2{
+    font-size: 40px;
+    padding-left: 150px;
+}
+
+.style-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 8%;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .style-img img{
+    margin-top: 30px;
+  }
+
+  /* About */
+  .about{
+      display: flex;
+      padding: 50px;
+  }
+
+  .about-contents{
+      padding: 100px 50px 70px 70px;
+  }
+
+  .about-sub-ttl{
+      font-size: 22px;
+  }
+
+  .about-ttl{
+    padding-top: 10px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+.about-text{
+    margin-top: 30px;
+    line-height: 25px;
+}  
+
+.about-text-2{
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    padding: 15px 30px 15px 30px;
+    border: 2px solid #fff;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    padding: 20px;
+}
